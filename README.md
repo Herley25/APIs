@@ -15,13 +15,13 @@ Execute os comandos abaixo para que a aplicação rode na sua máquina:
 ### Clonar o repositório
 
 ```
-git clone <url do repo no Github>
+git clone <https://github.com/Herley25/api>
 ```
 
 ### Entrar no diretório do projeto
 
 ```
-cd api-image-example
+cd api_teste
 ```
 
 ### Instalar as dependências do projeto
@@ -33,13 +33,13 @@ npm install
 ### Criar imagem Docker
 
 ```
-docker build -t api-image-example:1.0.0 .
+docker build -t api:1.0.0 .
 ```
 
 ### Rodar a API no Container
 
 ```
-docker run -p 8080:8080 -d api-image-example:1.0.0
+docker run -p 8080:8080 -d api:1.0.0
 ```
 
 ### Acessar a API
@@ -48,8 +48,6 @@ Para acessar os métodos da API você poderá usar o POSTMAN:
 
 -   `GET /produtos` retornar uma lista de produtos
 -   `POST /produtos` criar um novo produto
--   `PUT /produtos/{produtoId}` atualizar um produto existente
--   `DELETE /produtos/{produtoId}` remover um produto existente
 
 ### Payload
 
