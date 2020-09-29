@@ -33,13 +33,13 @@ npm install
 ### Criar imagem Docker
 
 ```
-docker build -t api:1.0.0 .
+docker build -t api_teste:1.0.0 .
 ```
 
 ### Rodar a API no Container
 
 ```
-docker run -p 8080:8080 -d api:1.0.0
+docker run -p 8080:8080 -d api_teste:1.0.0
 ```
 
 ### Acessar a API
