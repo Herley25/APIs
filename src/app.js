@@ -10,7 +10,7 @@ app.use(bodyParser.json()); // a partir conseguimos receber dados em formato jso
 app.post("/produtos",(req, resposta) => {
     const produto = {
         nome: req.body.nome,
-        fabricante: req.body.fabricante,
+        fabricante: req.body.fabricante, 
         aprendiz: req.body.aprendiz 
     };
 

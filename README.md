@@ -46,8 +46,8 @@ docker run -p 8080:8080 -d api_teste:1.0.0
 
 Para acessar os métodos da API você poderá usar o POSTMAN:
 
--   `GET /produtos` retornar uma lista de produtos
--   `POST /produtos` criar um novo produto
+-   `GET http://localhost:8080/produtos` retornar uma lista de produtos
+-   `POST http://localhost:8080/produtos` criar um novo produto
 
 ### Payload
 
